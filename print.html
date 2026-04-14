@@ -54,7 +54,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-a213f8c8.js";
+            window.path_to_searchindex_js = "searchindex-4893b822.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-192f1802.js"></script>
@@ -597,16 +597,22 @@ mit-scheme -edit
   7.8
 </code></pre>
 <p>2.1 compose / parallel-combine의 인자 갯수 맞추기</p>
-<p>2.2 연습문제 누락
-<a href="https://occamsrazr.net/book/SoftwareDesignForFlexibility">https://occamsrazr.net/book/SoftwareDesignForFlexibility</a></p>
-<p>spread-combine의 프로시저 f, g, h에 어떤 종류의 제약을 가해야 할까</p>
-<p>(procedure-arity-min (procedure-arity +)) = 0
-(procedure-arity-max (procedure-arity +)) = #f</p>
-<p>(procedure-arity-min (procedure-arity atan)) = 1
-(procedure-arity-max (procedure-arity atan)) = 2</p>
-<p>Exercise 2.3: A quickie
+<pre><code class="language-txt">2.2 연습문제 누락
+
+&lt;https://occamsrazr.net/book/SoftwareDesignForFlexibility&gt;
+
+spread-combine의 프로시저 f, g, h에 어떤 종류의 제약을 가해야 할까
+
+(procedure-arity-min (procedure-arity +)) = 0
+(procedure-arity-max (procedure-arity +)) = #f
+
+(procedure-arity-min (procedure-arity atan)) = 1
+(procedure-arity-max (procedure-arity atan)) = 2
+
+Exercise 2.3: A quickie
 Reformulate parallel-combine to be a composition of two parts
-and to allow the parts to return multiple values</p>
+and to allow the parts to return multiple values
+</code></pre>
 
                     </main>
 
