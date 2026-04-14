@@ -34,7 +34,7 @@ Review
     - Scheme 언어 만든사람
   - Alexery Radul
     - <https://scholar.google.com/citations?user=d2gqmrUAAAAJ&hl=en>
-  - <https://alexey.radul.name/>
+    - <https://alexey.radul.name/>
 
 ## 준비
 
@@ -94,7 +94,27 @@ Have you had 6.034 or equivalent? yes no
 
 ## 문제?
 
-- 리뷰1 [Software Design for Flexibility: a review - Geoff Wozniak](https://wozniak.ca/blog/2022/03/01/1/index.html)
+- 다루는 내용이 많은데 책이 얇다.
+  - 각 장마다 책 한권 이상이 나올텐데... 지도를 그려나간다 하면서 sicp랑 이런 책들을 읽으면 좋음
+  - 참고 문헌
+  - 저자가 누구인지
+  - SICP는 그나마 친절하다
+- 번역판
+  - 용어
+    - 번역자가 류광으로 SICP번역 보다는 훨씬 나음.
+    - 하지만 류광 역시 역대 번역서 대대로 이어진 고질적인 아집이 있음
+      - 맞는 말인데 쳐맞는말
+      - 굳이 중요치 않은것에도 전문용어를 써야했었나
+      - arity - 항수 / 인자 개수
+        - <https://en.wiktionary.org/wiki/arity>
+      - Pattern Matching - 패턴부합 / 패턴매칭 
+  - 책소개도 조금 부족하다
+  - 거기다 조작 리뷰 알바들
+- 연습문제 2.2 부분 누락
+  - 이건 치명적인 검수문제. 리뷰도 돌렸을 텐데 이걸 못잡네.
+- 리뷰
+  - [Software Design for Flexibility: a review - Geoff Wozniak](https://wozniak.ca/blog/2022/03/01/1/index.html)
+  - <https://www.reddit.com/r/mit/comments/kv031p/has_anyone_taken_69056945_largescale_symbolic/>
 - mit-scheme 중심으로 작성됨
   - mit-scheme이 버전업되면서 윈도우 지원 안하니,
   - wsl + emacs + geiser + mit-scheme 설정으로 하는게 편한듯.
@@ -113,43 +133,26 @@ Have you had 6.034 or equivalent? yes no
 ((hello 1) 2) ;; => 1/2
 ```
 
-- 책이 얇다. 각 장마다 책 한권 이상이 나올텐데, 다루는 내용이 많은데
-  - 지도를 그려나간다 하면서 sicp랑 이런 책들을 읽으면 좋음
-  - 참고 문헌
-  - 저자가 누구인지
-  - SICP는 그나마 친절하다
-
-- 번역서 문제 용어
-  - 번역자가 류광으로 SICP번역 보다는 훨씬 나음.
-  - 하지만 류광 역시 역대 번역서 대대로 이어진 고질적인 아집이 있음
-    - 맞는 말인데 쳐맞는말
-    - 굳이 중요치 않은것에도 전문용어를 써야했었나
-    - arity - 항수 / 인자 개수
-      - <https://en.wiktionary.org/wiki/arity>
-    - Pattern Matching - 패턴부합 / 패턴매칭 
-- 연습문제 2.2 부분 누락
-  - 이건 치명적인 검수문제. 리뷰도 돌렸을 이걸 못잡네.
-
-
 ## 참고자료
 
 - <https://groups.csail.mit.edu/mac/users/gjs/6.945/>
   - <https://groups.csail.mit.edu/mac/users/gjs/6.945/sdf/manager/software-manager.pdf>
   - <https://groups.csail.mit.edu/mac/users/gjs/6.945/red-tape.pdf>
 
+- <https://ocw.mit.edu/courses/6-945-adventures-in-advanced-symbolic-programming-spring-2009/pages/readings/>
 - Readings: Readings may be chosen from
   1. SDF: Hanson and Sussman; Software Design for Flexibility
   2. SICP: Abelson, Sussman, and Sussman; Structure and Interpretation of Computer Programs
-  1. R5RS: Kelsey, et.al.; Revised 5 Report on the Algorithmic Language Scheme
-  2. SOS: Hanson; Scheme Object System
-  3. ART: Springer and Friedman; Scheme and the Art of Programming
-  4. RZ: Zippel; Effective Polynomial Computation
-  5. AOP: Radul and Sussman; The Art of the Propagator
-  6. BPS: Forbus and deKleer; Building Problem Solvers
-  7. CONS: Steele; Constraints, MIT PhD thesis
-  8. LOGIC: Suppes; Introduction to Logic
-  9. AMORD: deKleer, Doyle, Rich, Steele, and Sussman; AMORD: A Deductive Procedure System
-  10. CMMR: Bundy; The Computer Modelling of Mathematical Reasoning
+  3. R5RS: Kelsey, et.al.; Revised 5 Report on the Algorithmic Language Scheme
+  4. SOS: Hanson; Scheme Object System
+  5. ART: Springer and Friedman; Scheme and the Art of Programming
+  6. RZ: Zippel; Effective Polynomial Computation
+  7. AOP: Radul and Sussman; The Art of the Propagator
+  8. BPS: Forbus and deKleer; Building Problem Solvers
+  9. CONS: Steele; Constraints, MIT PhD thesis
+  10. LOGIC: Suppes; Introduction to Logic
+  11. AMORD: deKleer, Doyle, Rich, Steele, and Sussman; AMORD: A Deductive Procedure System
+  12. CMMR: Bundy; The Computer Modelling of Mathematical Reasoning
 
 - ["We Really Don't Know How to Compute!" - Gerald Sussman (2011)](https://www.youtube.com/watch?v=HB5TrK7A4pI)
 - [Gerald Jay Sussman on Flexible Systems, The Power of Generic Operations](https://www.youtube.com/watch?v=cblhgNUoX9M)
